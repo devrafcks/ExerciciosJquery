@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    overflow: auto;
+}
+
+body{
+    background-image: url(https://images.tcdn.com.br/img/img_prod/1041703/playmat_o_senhor_dos_aneis_mapa_da_terra_media_diversos_tamanhos_4427_1_5f8a2d9870e225b73046978241f307ef.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    margin: 0% 25%;
+    background-color: #180b007a;
+}
+
+.div-conteudo{
+    display: block;
+    width: 100%;
+
+}
+
+h2{
+    box-sizing: border-box;
+    background-color: #ffab75;
+    display: block;
+    padding: 0% 25%;
+
+}
+
+img{
+    width: 100%;
+    height: 80%;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: larger;
+    color: #ffab75;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+h2:hover{
+    background-color: #f68640;
+    color: #ffcfb1;
+    cursor: pointer;
+}

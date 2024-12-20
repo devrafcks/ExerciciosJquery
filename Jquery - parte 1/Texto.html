@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudando texto com JQuery</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+    
+        *{
+            padding: 0%;
+            margin: 0%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+        
+        header{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 4em;
+        }
+    
+        div{
+            padding: .2em;
+            box-shadow: 10px 10px 10px #65636383;
+            margin: 1em 0;
+            width: 350px;
+            background-color: rgb(89, 173, 236);
+            border: solid;
+        }
+    
+        a{
+            color: rgb(255, 255, 255);
+            margin: 1em .5em;
+            font-size: 1.3em;
+        }
+    
+        a:hover{
+            color: rgb(115, 255, 255);
+            cursor: pointer;
+        }
+
+        hr{
+            border: solid 2px #00000083;
+        }
+
+        header > div > img{
+            width: 25%;
+            height: 100%;
+        }
+
+        .container-content{
+            margin: 0.45em 5em;
+            display: flex;
+            gap: 1.2em;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .content{
+            padding: .2em;
+            box-shadow: 10px 10px 10px #65636383;
+            margin: 0.5em 0;
+            width: 350px;
+            color: antiquewhite;
+            background-color: rgb(89, 173, 236);
+            padding: .7em;
+            border-radius: 10px;
+        }
+
+        .container-btns{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        button{
+            background-color: rgb(89, 173, 236);
+            border: none;
+            padding: .9em;
+            font-size: .9em;
+            color: antiquewhite;
+            margin: 1em .3em;
+        }
+
+        button:hover{
+            transition: .9s;
+            color: rgb(7, 11, 76);
+            background-color: rgb(187, 219, 248);
+            color: #65636383;
+            cursor: pointer;
+        }
+
+        .direction{
+            text-align: none;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://w7.pngwing.com/pngs/206/889/png-transparent-document-file-format-directory-data-storage-computer-icons-computer-angle-text-rectangle.png" alt="">
+
+            <a href="index.html" style="color: rgb(115, 255, 255);">Texto com JQuery</a>
+        </div>
+
+        <div>
+            <img src="https://w7.pngwing.com/pngs/206/889/png-transparent-document-file-format-directory-data-storage-computer-icons-computer-angle-text-rectangle.png" alt="">
+
+            <a href="Imagem.html">Imagem com JQuery</a>
+        </div>
+    </header>
+
+    <hr>
+    
+    <main>
+        <section class="container-btns">
+            <button id="btn-left">
+                <span>Left</span>
+            </button>
+
+            <button id="btn-center">
+                <span>Center</span>
+            </button>
+
+            <button id="btn-right">
+                <span>Right</span>
+            </button>
+
+            <button id="btn-justify">
+                <span>Justify</span>
+            </button>
+
+        </section>
+        <section class="container-content">
+            <article class="content direction">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nam minima inventore nesciunt eaque deserunt tempore consequatur quas, mollitia asperiores tenetur sequi ipsam aspernatur ab, cupiditate voluptates quia. Impedit, incidunt?
+                Accusantium mollitia est iusto nihil porro illo, doloribus, perspiciatis doloremque ipsa rerum eius beatae suscipit repellendus aspernatur.
+            </article>
+            <article class="content direction">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nam minima inventore nesciunt eaque deserunt tempore consequatur quas, mollitia asperiores tenetur sequi ipsam aspernatur ab, cupiditate voluptates quia. Impedit, incidunt?
+                Accusantium mollitia est iusto nihil porro illo, doloribus, perspiciatis doloremque ipsa rerum eius beatae suscipit repellendus aspernatur.
+            </article>
+            <article class="content direction">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nam minima inventore nesciunt eaque deserunt tempore consequatur quas, mollitia asperiores tenetur sequi ipsam aspernatur ab, cupiditate voluptates quia. Impedit, incidunt?
+                Accusantium mollitia est iusto nihil porro illo, doloribus, perspiciatis doloremque ipsa rerum eius beatae suscipit repellendus aspernatur.
+            </article>
+            <article class="content direction">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nam minima inventore nesciunt eaque deserunt tempore consequatur quas, mollitia asperiores tenetur sequi ipsam aspernatur ab, cupiditate voluptates quia. Impedit, incidunt?
+                Accusantium mollitia est iusto nihil porro illo, doloribus, perspiciatis doloremque ipsa rerum eius beatae suscipit repellendus aspernatur.
+            </article>
+        </section>
+    </main>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
